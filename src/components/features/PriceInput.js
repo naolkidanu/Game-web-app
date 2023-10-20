@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from 'react';
 
-import { useDispatch } from "react-redux";
-import { fetchGamesAsync } from "../../redux/Slices/gameSlice";
-import "../styles/PriceInput.css";
+import { useDispatch } from 'react-redux';
+import { fetchGamesAsync } from '../../redux/Slices/gameSlice';
+import '../styles/PriceInput.css';
 
 const PriceInput = () => {
   const dispatch = useDispatch();
@@ -15,7 +15,10 @@ const PriceInput = () => {
   return (
     <>
       <span>
-        <p>Selected Price: ${selectedLowerPrice}</p>
+        <p>
+          Selected Price: $
+          {selectedLowerPrice}
+        </p>
       </span>
       <div className="price__input">
         <label htmlFor="lowerPrice">Enter Price:</label>
