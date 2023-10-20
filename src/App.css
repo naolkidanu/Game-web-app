@@ -7,9 +7,7 @@
   text-decoration: none;
   list-style: none;
   font-family: "Josefin Sans", sans-serif;
-  color: #67ffd9;
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
-    1px 1px 0 black;
+  color: rgb(194, 135, 243);
 }
 
 body {
@@ -33,7 +31,6 @@ body {
   background-size: cover;
   position: relative;
   border: 3px solid transparent;
-  border-image: linear-gradient(to right, #db005b, #3e0e0e, #67ffd9);
   border-image-slice: 1;
   z-index: 1;
 }

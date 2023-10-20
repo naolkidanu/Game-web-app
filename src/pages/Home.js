@@ -1,17 +1,17 @@
-import React, { useState } from 'react';
-import { useDispatch } from 'react-redux';
-import PriceInput from '../components/features/PriceInput';
-import GameItems from '../components/gameItems/GameItems';
-import Navbar from '../components/navBar/Navbar';
-import { fetchGamesAsync } from '../redux/Slices/gameSlice';
+import React, { useState } from "react";
+import { useDispatch } from "react-redux";
+import PriceInput from "../components/features/PriceInput";
+import GameItems from "../components/gameItems/GameItems";
+import Navbar from "../components/navBar/Navbar";
+import { fetchGamesAsync } from "../redux/Slices/gameSlice";
 // import SearchGames from "../components/features/SearchGames";
-import SearchGames from '../components/features/searchGames';
-import '../App.css';
+import SearchGames from "../components/features/searchGames";
+import "../App.css";
 
 function Home() {
   const dispatch = useDispatch();
-  const [searchQuery, setSearchQuery] = useState('');
-  const [priceFilter, setPriceFilter] = useState('');
+  const [searchQuery, setSearchQuery] = useState("");
+  const [priceFilter, setPriceFilter] = useState("");
 
   const handleSearchInputChange = (event) => {
     setSearchQuery(event.target.value);
@@ -31,9 +31,9 @@ function Home() {
 
   return (
     <>
-      <Navbar data="Gamers' Creed" year={2023} />
+      <Navbar data="Game" year={2023} />
       <header className="hero">
-        <h1 className="hero__title">Gaming Is Not A Crime</h1>
+        <h1 className="hero__title">Let's have fun.</h1>
         <SearchGames
           searchQuery={searchQuery}
           handleSearchInputChange={handleSearchInputChange}

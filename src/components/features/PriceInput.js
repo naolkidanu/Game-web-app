@@ -15,10 +15,10 @@ const PriceInput = () => {
   return (
     <>
       <span>
-        <p>Selected Lower Price: ${selectedLowerPrice}</p>
+        <p>Selected Price: ${selectedLowerPrice}</p>
       </span>
       <div className="price__input">
-        <label htmlFor="lowerPrice">Enter Base Price:</label>
+        <label htmlFor="lowerPrice">Enter Price:</label>
         <input
           type="number"
           id="lowerPrice"
