@@ -1,10 +1,6 @@
 <a name="readme-top"></a>
 
-<div align="center">
-  <img src="logo-removebg.png" alt="logo" width="300"  height="auto" />
-  <br/>
-
-  <h3><b>Fun Zone</b></h3>
+  <h2><b>Fun zone web app</b></h2>
 
 </div>
 
@@ -31,7 +27,7 @@
 
 # 📖 Gamers' Creed <a name="about-project"></a>
 
-**Fun ZOne** is a creative and eye-catching web application that completely changes how we play and interact with games.
+**Fun zone**is a cutting-edge, aesthetically attractive web application that completely transforms how we play and interact with games.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -53,7 +49,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Gamers' Creed](https://gamers-creed.onrender.com)
+- [Fun zone](https://deploy-preview-8--funnyzone.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,11 +107,11 @@ You can deploy this project using: GitHub but if you want to deploy make sure yo
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Aung Pyae Khant**
+👤 **Naol Kidanu Merdasa**
 
-- GitHub: [Naol Kidanu Merdasa](https://github.com/naolkidanu/game-web-app)
-- Twitter: [Naol Kidanu Merdasa](https://twitter.com/NaolKidanu)
-- LinkedIn: [Naol Kidanu Merdasa](https://www.linkedin.com/in/naol-kidanu-3b64b7227/)
+- GitHub: [Naol Kidanu Merdasa](https://github.com/naolkidanu/)
+- Twitter: [Naol Kidanu Merdasa](https://twitter.com/Naolkidanu)
+- LinkedIn: [Naol Kidanu Merdasa](https://linkedin.com/in/naol-kidanu-3b64b7227/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,7 +126,7 @@ You can deploy this project using: GitHub but if you want to deploy make sure yo
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/naolkidanu/game-web-app/issues).
+Feel free to check the [issues page](https://github.com/naolkidanu/fun-zone/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
