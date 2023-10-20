@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 import {
   faChevronLeft,
   faMicrophone,
   faGear,
-} from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "../styles/Navbar.css";
+} from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import '../styles/Navbar.css';
 
 const Navbar = () => (
   <>

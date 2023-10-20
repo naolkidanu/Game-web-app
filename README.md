@@ -4,7 +4,7 @@
   <img src="logo-removebg.png" alt="logo" width="300"  height="auto" />
   <br/>
 
-  <h3><b>Gamers' Creed</b></h3>
+  <h3><b>Fun Zone</b></h3>
 
 </div>
 
@@ -31,7 +31,7 @@
 
 # 📖 Gamers' Creed <a name="about-project"></a>
 
-**Gamers' Creed** is an innovative and visually stunning web application that redefines the way we experience and interact with games.
+**Fun ZOne** is a creative and eye-catching web application that completely changes how we play and interact with games.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -75,7 +75,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/lilskyex0x/Gamers-Creed.git
+  git clone https://github.com/naolkidanu/game-web-app.git
 ```
 
 ### Install
@@ -113,9 +113,9 @@ You can deploy this project using: GitHub but if you want to deploy make sure yo
 
 👤 **Aung Pyae Khant**
 
-- GitHub: [Aung Pyae Khant](https://github.com/lilskyex0x)
-- Twitter: [Aung Pyae Khant](https://twitter.com/LilSn0w45)
-- LinkedIn: [Aung Pyae Khant](https://linkedin.com/in/aung-pyae-khant-932342251)
+- GitHub: [Naol Kidanu Merdasa](https://github.com/naolkidanu/game-web-app)
+- Twitter: [Naol Kidanu Merdasa](https://twitter.com/NaolKidanu)
+- LinkedIn: [Naol Kidanu Merdasa](https://www.linkedin.com/in/naol-kidanu-3b64b7227/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,7 +130,7 @@ You can deploy this project using: GitHub but if you want to deploy make sure yo
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/lilskyex0x/Gamers-Creed/issues).
+Feel free to check the [issues page](https://github.com/naolkidanu/game-web-app/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
