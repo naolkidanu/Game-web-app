@@ -1,21 +1,21 @@
-import React from "react";
-import { render, screen } from "@testing-library/react";
-import { Provider } from "react-redux";
-import thunk from "redux-thunk";
-import configureStore from "redux-mock-store";
-import { BrowserRouter } from "react-router-dom";
-import Detail from "../pages/Detail";
+import React from 'react';
+import { render, screen } from '@testing-library/react';
+import { Provider } from 'react-redux';
+import thunk from 'redux-thunk';
+import configureStore from 'redux-mock-store';
+import { BrowserRouter } from 'react-router-dom';
+import Detail from '../pages/Detail';
 
 const mockStore = configureStore([thunk]);
 
-describe("Detail Component", () => {
-  it("renders game details properly", () => {
+describe('Detail Component', () => {
+  it('renders game details properly', () => {
     const initialState = {
       game: {
         gameDetail: {
           info: {
-            title: "Game Title",
-            thumb: "game.jpg",
+            title: 'Game Title',
+            thumb: 'game.jpg',
           },
           cheapestPriceEver: {
             price: 9.99,
@@ -31,9 +31,9 @@ describe("Detail Component", () => {
         },
         gameData: [
           {
-            id: "1",
+            id: '1',
             rating: 4.5,
-            textRating: "Excellent",
+            textRating: 'Excellent',
             score: 85,
             normalPrice: 19.99,
             salePrice: 9.99,
@@ -49,10 +49,10 @@ describe("Detail Component", () => {
         <BrowserRouter>
           <Detail />
         </BrowserRouter>
-      </Provider>
+      </Provider>,
     );
 
-    const gameTitleElement = screen.getByText("Game Title");
+    const gameTitleElement = screen.getByText('Game Title');
 
     expect(document.body.contains(gameTitleElement)).toBe(true);
   });
