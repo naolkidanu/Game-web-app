@@ -21,18 +21,20 @@ const PriceInput = () => {
         </p>
       </span>
       <div className="price__input">
-        <label htmlFor="lowerPrice">Enter Price:</label>
-        <input
-          type="number"
-          id="lowerPrice"
-          name="lowerPrice"
-          placeholder="     $"
-          value={selectedLowerPrice}
-          onChange={(e) => {
-            const newLowerPrice = e.target.value;
-            setSelectedLowerPrice(newLowerPrice);
-          }}
-        />
+        <label htmlFor="lowerPrice">
+          Enter Price:
+          <input
+            type="number"
+            id="lowerPrice"
+            name="lowerPrice"
+            placeholder="     $"
+            value={selectedLowerPrice}
+            onChange={(e) => {
+              const newLowerPrice = e.target.value;
+              setSelectedLowerPrice(newLowerPrice);
+            }}
+          />
+        </label>
       </div>
     </>
   );

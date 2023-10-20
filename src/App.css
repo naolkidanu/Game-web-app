@@ -26,7 +26,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(https://i.pinimg.com/564x/82/61/d4/8261d4f6401da8f98407e175cde46ad5.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -171,10 +170,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
-}
-
-.title-word {
-  animation: color-animation 4s linear infinite;
 }
 
 .title-word-1 {
