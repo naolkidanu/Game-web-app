@@ -1,9 +1,9 @@
-import React, { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { useParams } from "react-router-dom";
-import { fetchGameDetails, fetchGamesAsync } from "../redux/Slices/gameSlice";
-import Navbar from "../components/navBar/Navbar";
-import "../App.css";
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { useParams } from 'react-router-dom';
+import { fetchGameDetails, fetchGamesAsync } from '../redux/Slices/gameSlice';
+import Navbar from '../components/navBar/Navbar';
+import '../App.css';
 
 function Detail() {
   const { id } = useParams();
@@ -13,7 +13,7 @@ function Detail() {
 
   useEffect(() => {
     dispatch(fetchGameDetails(id));
-    dispatch(fetchGamesAsync(""));
+    dispatch(fetchGamesAsync(''));
   }, [dispatch, id]);
 
   return (
@@ -37,7 +37,12 @@ function Detail() {
                 </h2>
               </span>
               <span>
-                <h2>&quot; ${gameDetail.cheapestPriceEver.price} &quot;</h2>
+                <h2>
+                  &quot; $
+                  {gameDetail.cheapestPriceEver.price}
+                  {' '}
+                  &quot;
+                </h2>
               </span>
             </div>
             <div className="lineThrough" />
@@ -54,14 +59,20 @@ function Detail() {
                           </p>
                           <p>
                             Text Rating:
-                            {game.textRating ? game.textRating : "No rating"}
+                            {game.textRating ? game.textRating : 'No rating'}
                           </p>
                           <p>
                             Metacritic Score:
                             {game.score}
                           </p>
-                          <p>Normal Price: ${game.normalPrice}</p>
-                          <p>Sale Price: ${game.salePrice}</p>
+                          <p>
+                            Normal Price: $
+                            {game.normalPrice}
+                          </p>
+                          <p>
+                            Sale Price: $
+                            {game.salePrice}
+                          </p>
                         </div>
                       );
                     }
@@ -83,9 +94,18 @@ function Detail() {
                       Deal-
                       {index + 1}
                     </h3>
-                    <p>Deal price: ${deal.price}</p>
-                    <p>Retail Price: ${deal.retailPrice}</p>
-                    <p>You will save: ${deal.savings}</p>
+                    <p>
+                      Deal price: $
+                      {deal.price}
+                    </p>
+                    <p>
+                      Retail Price: $
+                      {deal.retailPrice}
+                    </p>
+                    <p>
+                      You will save: $
+                      {deal.savings}
+                    </p>
                   </div>
                 ))}
               </div>

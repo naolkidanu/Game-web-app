@@ -1,7 +1,7 @@
-import React from "react";
-import { BsSearch } from "react-icons/bs";
-import "../styles/SearchGames.css";
-import PropTypes from "prop-types";
+import React from 'react';
+import { BsSearch } from 'react-icons/bs';
+import '../styles/SearchGames.css';
+import PropTypes from 'prop-types';
 
 function SearchGames({
   searchQuery,
