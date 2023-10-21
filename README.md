@@ -110,7 +110,7 @@ You can deploy this project using: GitHub but if you want to deploy make sure yo
 👤 **Naol Kidanu Merdasa**
 
 - GitHub: [Naol Kidanu Merdasa](https://github.com/naolkidanu/)
-- Twitter: [Naol Kidanu Merdasa](https://twitter.com/Naolkidanu)
+- Twitter: [Naol Kidanu Merdasa](https://twitter.com/NaolKidanu88624)
 - LinkedIn: [Naol Kidanu Merdasa](https://linkedin.com/in/naol-kidanu-3b64b7227/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -126,7 +126,7 @@ You can deploy this project using: GitHub but if you want to deploy make sure yo
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/naolkidanu/fun-zone/issues).
+Feel free to check the [issues page](https://github.com/naolkidanu/game-web-app/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
