@@ -7,14 +7,14 @@ import {
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../styles/Navbar.css';
+import PropTypes from 'prop-types';
 
-const Navbar = () => (
+const Navbar = ({ data }) => (
   <>
     <nav className="navbar" id="myNavbar">
       <div className="nav__wrapper">
         <Link id="back" to="/">
           <FontAwesomeIcon icon={faChevronLeft} className="icon" />
-          {}
         </Link>
         <ul className="nav-menu">
           <li className="nav-list">
@@ -23,7 +23,7 @@ const Navbar = () => (
               to="/"
               onClick={() => window.location.reload()}
             >
-              {}
+              {data}
             </Link>
           </li>
         </ul>
@@ -36,9 +36,8 @@ const Navbar = () => (
   </>
 );
 
-// Navbar.propTypes = {
-//   data: PropTypes.string.isRequired,
-//   year: PropTypes.number,
-// };
+Navbar.propTypes = {
+  data: PropTypes.string.isRequired,
+};
 
 export default Navbar;
